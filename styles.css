@@ -1,0 +1,135 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    color: white;
+    background-color: #ff66b2; 
+    cursor: url("imagenes/puntero.png"), auto; 
+    padding: 0;
+    font-size: xx-large;
+}
+
+header {
+    background-color: #000; 
+    padding: 30px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo-gallery img {
+    width: 80%;
+    max-width: 500;
+    margin: 20px 0;
+    opacity: 1;
+    transform: translateY(100px);
+    transition: opacity 3s, transform 2s;
+    animation: fadeInUp 1s forwards;
+    
+}
+
+.info {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.info h2 {
+    font-size: 125px;
+    
+}
+
+.contact-form {
+    background: #00f5cc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 60px 0;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin: 10px 0 5px;
+}
+
+.contact-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: #383636;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.contact-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #000;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+#thankyou-message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.hidden {
+    display: none;
+}
+
+.gifs {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.gifs img {
+    width: 500px;
+    margin: 30px;
+}
